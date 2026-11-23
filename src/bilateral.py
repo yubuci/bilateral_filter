@@ -30,6 +30,7 @@ def bilateral_gray_naive(image, sigma_domain, sigma_range, radius = None):
 
     x, y = image.shape
     output = np.zeros_like(image) #empty matrix with the same shape as the input image
+    #np.zeros = creates an array of GIVEN SHAPE, filled with zeros.
 
     for i in range(x):
         for j in range(y):

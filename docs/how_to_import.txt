@@ -1,0 +1,6 @@
+numpy -> numpy   
+scipy -> scipy
+matplotlib -> matplotlib.pyplot
+scikit-image -> from skimage import data,color
+opencv-python -> cv2
+jupyter
